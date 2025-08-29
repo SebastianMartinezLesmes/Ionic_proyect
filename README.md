@@ -3,6 +3,7 @@
 Proyecto principal que integra y gestiona diferentes frameworks a través de Ionic, funcionando como contenedor y punto de acceso a mini proyectos desarrollados en distintos entornos frontend.
 
 ##🚀 Subproyectos incluidos
+
 ###🔹 Angular
 
 Mini proyecto que implementa un CRUD de usuarios conectado a una API REST, permitiendo realizar operaciones básicas de gestión de usuarios.
