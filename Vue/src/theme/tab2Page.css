@@ -1,0 +1,92 @@
+#content_page{
+    width: 100%;
+    height: 100%;
+    background: url(../../public/rick_galaxy.jpg) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#izquierda{
+    height: 100%;
+    width: 25%;
+    overflow-y:auto;
+    direction: rtl;
+}
+
+#izquierda > * {
+    direction: ltr; 
+}
+
+#acordeon_header{
+    color: rgb(60, 255, 0);
+}
+
+#acordeon_content{
+    background-color: rgba(0, 255, 221, 0.699);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#acordeon_label{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    /* color: rgb(153, 0, 255); */
+}
+
+#derecha{
+    height: 100%;
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgba(195, 0, 255, 0.404);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button_Clear_residents{
+    width: 100%;
+    height: 5%;
+    --background: rgba(225, 0, 255, 0.514);
+}
+
+#button_Clear_residents h2 {
+    color: white;
+}
+
+#list_residents{
+    width: 100%;
+    height:55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+#list_residents ion-card {
+    height: 40%;
+    width: 45%;
+    background: rgba(128, 0, 128, 0.534);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#list_residents ion-card img {
+    width: 50%;
+    height: 100%;
+}
+
+#list_residents ion-card h2 {
+    align-items: center;
+    width: 50%;
+}
