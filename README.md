@@ -1,7 +1,47 @@
 # Ionic_proyect
 
 Proyecto principal que integra y gestiona diferentes frameworks a través de Ionic, funcionando como contenedor y punto de acceso a mini proyectos desarrollados en distintos entornos frontend.
+---
+## 🔧 Pre-requisitos
 
+1. **Instalar Node.js**  
+Descárgalo desde la [página oficial de Node.js](https://nodejs.org/es?utm_source=chatgpt.com).  
+Verifica la instalación ejecutando:  
+```bash
+node -v
+npm -v
+```
+2. **Instalar Git**
+Descárgalo desde [Pagina de Git](https://git-scm.com/downloads) 
+Verifica la instalación ejecutando:
+```bash
+git -v
+```
+3. **Instalar Ionic CLI**
+Instálalo de manera global con:
+```bash
+npm install -g @ionic/cli
+```
+Verifica la instalación ejecutando:
+```bash
+ionic -v
+```
+---
+## Pasos para ejecutar
+Para cualquier subproyecto (Angular, React o Vue):
+
+1. Acceder al repositorio
+
+2. Instalar dependencias
+```bash
+npm install
+```
+
+3. Ejecutar en el servidor
+```bash
+ionic serve
+```
+---
 ## 🚀 Subproyectos incluidos
 
 ### 🔹 Angular ✅
@@ -29,44 +69,4 @@ Mini proyecto construido en Vue.js que consume la API de Rick and Morty, mostran
 - Para acceder al repositorio:
 ```bash
 cd Vue
-```
-
-## Pasos para ejecutar
-Para cualquier subproyecto (Angular, React o Vue):
-
-1. Acceder al repositorio
-
-2. Instalar dependencias
-```bash
-npm install
-```
-
-3. Ejecutar en el servidor
-```bash
-ionic serve
-```
-
-## 🔧 Pre-requisitos
-
-1. **Instalar Node.js**  
-Descárgalo desde la [página oficial de Node.js](https://nodejs.org/es).  
-Verifica la instalación ejecutando:  
-```bash
-node -v
-npm -v
-```
-2. **Instalar Git**
-Descárgalo desde [Pagina de Git](https://nodejs.org/es?utm_source=chatgpt.com) 
-Verifica la instalación ejecutando:
-```bash
-git -v
-```
-3. **Instalar Ionic CLI**
-Instálalo de manera global con:
-```bash
-npm install -g @ionic/cli
-```
-Verifica la instalación ejecutando:
-```bash
-ionic -v
 ```
