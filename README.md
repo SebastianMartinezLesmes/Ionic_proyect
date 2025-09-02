@@ -13,9 +13,9 @@ Mini proyecto que implementa un CRUD de usuarios conectado a una API REST, permi
 cd Angular
 ```
 
-### 🔹 React
+### 🔹 React ✅ 
 
-Mini proyecto desarrollado en React para la administración de usuarios, con un enfoque práctico y sencillo en la gestión de datos.
+Este mini proyecto en **React** permite la administración de usuarios mediante un sistema de **scroll infinito** para explorar perfiles, junto con la opción de visualizar los **detalles individuales de cada perfil**. Su objetivo es ofrecer una experiencia fluida y práctica en la navegación y gestión de datos.
 
 - Para acceder al repositorio:
 ```bash
