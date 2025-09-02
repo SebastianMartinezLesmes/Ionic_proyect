@@ -22,7 +22,7 @@ Este mini proyecto en **React** permite la administración de usuarios mediante 
 cd React
 ```
 
-### 🔹 Vue
+### 🔹 Vue ✅ 
 
 Mini proyecto construido en Vue.js que consume la API de Rick and Morty, mostrando información y detalles sobre los personajes de la serie.
 
