@@ -45,3 +45,28 @@ npm install
 ```bash
 ionic serve
 ```
+
+## 🔧 Pre-requisitos
+
+1. **Instalar Node.js**  
+Descárgalo desde la [página oficial de Node.js](https://nodejs.org/es).  
+Verifica la instalación ejecutando:  
+```bash
+node -v
+npm -v
+```
+2. **Instalar Git**
+Descárgalo desde [Pagina de Git](https://nodejs.org/es?utm_source=chatgpt.com) 
+Verifica la instalación ejecutando:
+```bash
+git -v
+```
+3. **Instalar Ionic CLI**
+Instálalo de manera global con:
+```bash
+npm install -g @ionic/cli
+```
+Verifica la instalación ejecutando:
+```bash
+ionic -v
+```
