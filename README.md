@@ -4,7 +4,7 @@ Proyecto principal que integra y gestiona diferentes frameworks a través de Ion
 
 ## 🚀 Subproyectos incluidos
 
-### 🔹 Angular
+### 🔹 Angular ✅
 
 Mini proyecto que implementa un CRUD de usuarios conectado a una API REST, permitiendo realizar operaciones básicas de gestión de usuarios.
 
