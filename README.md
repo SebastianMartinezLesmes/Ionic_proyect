@@ -1,36 +1,32 @@
 # Ionic_proyect
 
 Proyecto principal que integra y gestiona diferentes frameworks a través de Ionic, funcionando como contenedor y punto de acceso a mini proyectos desarrollados en distintos entornos frontend.
+---
+## 🔧 Pre-requisitos
 
-## 🚀 Subproyectos incluidos
-
-### 🔹 Angular
-
-Mini proyecto que implementa un CRUD de usuarios conectado a una API REST, permitiendo realizar operaciones básicas de gestión de usuarios.
-
-- Para acceder al repositorio:
+1. **Instalar Node.js**  
+Descárgalo desde la [página oficial de Node.js](https://nodejs.org/es?utm_source=chatgpt.com).  
+Verifica la instalación ejecutando:  
 ```bash
-cd Angular
+node -v
+npm -v
 ```
-
-### 🔹 React
-
-Mini proyecto desarrollado en React para la administración de usuarios, con un enfoque práctico y sencillo en la gestión de datos.
-
-- Para acceder al repositorio:
+2. **Instalar Git**
+Descárgalo desde [Pagina de Git](https://git-scm.com/downloads) 
+Verifica la instalación ejecutando:
 ```bash
-cd React
+git -v
 ```
-
-### 🔹 Vue
-
-Mini proyecto construido en Vue.js que consume la API de Rick and Morty, mostrando información y detalles sobre los personajes de la serie.
-
-- Para acceder al repositorio:
+3. **Instalar Ionic CLI**
+Instálalo de manera global con:
 ```bash
-cd Vue
+npm install -g @ionic/cli
 ```
-
+Verifica la instalación ejecutando:
+```bash
+ionic -v
+```
+---
 ## Pasos para ejecutar
 Para cualquier subproyecto (Angular, React o Vue):
 
@@ -44,4 +40,33 @@ npm install
 3. Ejecutar en el servidor
 ```bash
 ionic serve
+```
+---
+## 🚀 Subproyectos incluidos
+
+### 🔹 Angular ✅
+
+Mini proyecto que implementa un CRUD de usuarios conectado a una API REST, permitiendo realizar operaciones básicas de gestión de usuarios.
+
+- Para acceder al repositorio:
+```bash
+cd Angular
+```
+
+### 🔹 React ✅ 
+
+Este mini proyecto en **React** permite la administración de usuarios mediante un sistema de **scroll infinito** para explorar perfiles, junto con la opción de visualizar los **detalles individuales de cada perfil**. Su objetivo es ofrecer una experiencia fluida y práctica en la navegación y gestión de datos.
+
+- Para acceder al repositorio:
+```bash
+cd React
+```
+
+### 🔹 Vue ✅ 
+
+Mini proyecto construido en Vue.js que consume la API de Rick and Morty, mostrando información y detalles sobre los personajes de la serie.
+
+- Para acceder al repositorio:
+```bash
+cd Vue
 ```
